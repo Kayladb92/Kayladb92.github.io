@@ -33,22 +33,52 @@ nav > ul > li:hover {
 }
 
 .dropdown ul {
-    display: none;
     flex-direction: column;
     list-style-type: none;
     padding: 0px;
     position: absolute;
     left: 0px;
-    top: 100%;
-
+    top: 75%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s
+        top 0.5s;
 }
 
 .dropdown:hover ul {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
 }
 
-.dropdown ul li {
+.dropdown ul li  {
     background-color: rgb(243, 201, 76);
     padding: 12px;
     width: 150px;
+}
+
+.textAndImage {
+    align-items: center;
+    display: flex;
+    margin: 24px;
+}
+
+.textBlock {
+    flex 1;
+}
+
+.imageBlock {
+    flex: 1;
+}
+
+.imageBlock img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    nav > ul  {
+        flex-direction: column;
+    }
 }
