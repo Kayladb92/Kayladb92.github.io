@@ -78,6 +78,8 @@ nav > ul > li:hover {
     max-height: 500px;
     object-fit: cover;
     object-position: 50% 25%;
+    
+
 }
 
 @media screen and (max-width: 768px) {
