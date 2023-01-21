@@ -78,7 +78,7 @@ nav > ul > li:hover {
     max-height: 500px;
     object-fit: cover;
     object-position: 50% 25%;
-    
+    image-radius: 12px; 
 
 }
 
