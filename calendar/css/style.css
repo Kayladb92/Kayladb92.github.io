@@ -1,0 +1,19 @@
+
+table{
+    border-collapse: collapse;
+    border-bottom: 2px solid rgb(3, 4, 3); 
+    border-radius: 12px 12px 0px 0px;
+    margin: 45px;
+}
+
+td {
+    padding: 17px;
+    width: 140px;
+
+}
+
+thead {
+    background-color: plum;
+    
+
+}
