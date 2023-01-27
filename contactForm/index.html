@@ -19,7 +19,9 @@
                 </p>
             </header>
             <div id="formContainer">
-                <form>
+                <form
+                    method="POST"
+                    action="https://getform.io/f/cf9c2284-a36a-4165-a7a3-9b9dd83f99da">
                     <label>What can we help you with?</label>
                     <select name="questionType">
                         <option value="" disabled selected>-- Select what we can help you with --</option>
@@ -29,7 +31,7 @@
                         <option value="adRemoval">Need a break from ads</option>
                     </select>
                     <label>Name</label>
-                    <input type="text" name="name">
+                    <input type="text" name="name" required minlength="2" maxlength="30">
                     <label>Email</label>
                     <input type="text" name="email">
                     <label>Message</label>
