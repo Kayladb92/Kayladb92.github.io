@@ -44,7 +44,7 @@ form label {
     margin: 8px 0px;
 }
 
-form input[type=text],
+form input,
 form textarea,
 form select {
     padding: 12px;
@@ -74,4 +74,16 @@ form input[type=submit] {
     font-weight: bold;
     min-width: 250px;
     padding: 16px 24px;
+}
+
+input:invalid {
+    border:  2px solid red;
+}
+@media screen and (max-width: 600px) {
+    #gridContainer {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "content";
+    }
 }
