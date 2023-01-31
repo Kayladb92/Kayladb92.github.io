@@ -146,6 +146,14 @@ nav h2 {
   background-color: indigo;
   height: 80vh;
   background-image: url("../assets/images/crayon.jpg");
+  background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    display: flex;
+
 }
 
 /****************************************************************************
