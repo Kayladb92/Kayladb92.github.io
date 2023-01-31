@@ -60,6 +60,7 @@ p {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    text-align: center;
 }
 
 #hero3 h2{
