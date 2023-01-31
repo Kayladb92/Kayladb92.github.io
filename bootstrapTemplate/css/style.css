@@ -143,6 +143,9 @@ nav h2 {
 ****************************************************************************/
 
 #hero {
+  background-attachment: fixed;
+}
+#hero {
   background-color: indigo;
   height: 80vh;
   background-image: url("../assets/images/crayon.jpg");
