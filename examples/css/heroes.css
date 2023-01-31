@@ -61,3 +61,11 @@ p {
     background-position: center;
     background-attachment: fixed;
 }
+
+#hero3 h2{
+    padding-top: 60px;
+}
+
+#her3 h3{
+    padding-bottom: 60px;
+}
