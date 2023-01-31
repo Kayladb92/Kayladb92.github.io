@@ -48,3 +48,16 @@ p {
     font-family: cursive;
     font-size: 48px;
 }
+
+#hero2 h3,
+#hero3 h3 {
+    font-family: cursive;
+    font-size: 48px;
+}
+
+#hero3 {
+    background-image: url("../assets/images/nasa.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
