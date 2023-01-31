@@ -156,13 +156,6 @@ nav h2 {
 
 }
 
-#hero1 h1 {
-  position: absolute;
-  top: 60px;
-  left: 60px;
-  font-family: cursive;
-  font-size: 60px;
-}
 
 /****************************************************************************
   Link styles
@@ -192,11 +185,13 @@ nav h2 {
 .threeCards,
 .twoCards {
   display: flex;
+  background-color: rgb(234, 155, 126);
+  
 }
 
 .card {
   border: 2px solid indigo;
-  color: indigo;
+  color: rgb(54, 5, 89);
   margin: 48px 24px 24px;
   padding: 12px 12px 24px;
   text-align: center;
