@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+
+#hero1 {
+    background-image: url("../assets/images/ocean.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+#hero1 h1 {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    font-family: cursive;
+    font-size: 60px;
+    
+}
+
+p {
+    font-size: 32pc;
+    margin: 48px;
+}
+
+#hero2 {
+    height: 100vh;
+    background-image: url("../assets/images/sunflower.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: clumn;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero2 h2 {
+    font-family: cursive;
+    font-size:  60px;
+}
+
+#hero2 h3 {
+    font-family: cursive;
+    font-size: 48px;
+}
