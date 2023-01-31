@@ -24,7 +24,7 @@ body{
 }
 
 p {
-    font-size: 32pc;
+    font-size: 32px;
     margin: 48px;
 }
 
@@ -34,7 +34,7 @@ p {
     background-size: cover;
     background-position: center center;
     display: flex;
-    flex-direction: clumn;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -67,6 +67,6 @@ p {
     padding-top: 60px;
 }
 
-#her3 h3{
+#hero3 h3{
     padding-bottom: 60px;
 }
