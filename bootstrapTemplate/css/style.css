@@ -162,9 +162,9 @@ nav h2 {
 
 #hero a,
 .card a {
-  background-color: white;
-  color: indigo;
-  border: 2px solid indigo;
+  background-color: rgb(141, 122, 211);
+  color: rgb(254, 242, 17);
+  border: 2px solid rgb(36, 14, 145);
   border-radius: 24px;
   display: inline-block;
   padding: 8px 16px;
