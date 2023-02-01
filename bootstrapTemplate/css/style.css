@@ -52,7 +52,7 @@ footer a:hover {
 
 footer ul {
   padding: 0;
-}
+}q  Q3
 
 /****************************************************************************
   Grid styles
@@ -142,11 +142,11 @@ nav h2 {
   Hero styles
 ****************************************************************************/
 
-#hero styling {
-  background-attachment: fixed;
-}
+
+  
+
 #hero {
-  background-color: indigo;
+  background-attachment: fixed;
   height: 80vh;
   background-image: url("../assets/images/crayon.jpg");
   background-size: cover;
