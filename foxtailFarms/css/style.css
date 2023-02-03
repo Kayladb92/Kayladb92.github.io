@@ -196,8 +196,8 @@ nav h2 {
 }
 
 .card {
-  border: 2px solid indigo;
-  color: rgb(54, 5, 89);
+  border: 2px solid black;
+  color: black;
   margin: 48px 24px 24px;
   padding: 12px 12px 24px;
   text-align: center;
