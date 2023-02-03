@@ -21,7 +21,7 @@ a {
 
 h4,
 p {
-  font-family: 'Lobster', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -169,9 +169,9 @@ nav h2 {
 
 #hero a,
 .card a {
-  background-color: rgb(141, 122, 211);
-  color: rgb(254, 242, 17);
-  border: 2px solid rgb(36, 14, 145);
+  background-color: black;
+  color: white;
+  border: black;
   border-radius: 24px;
   display: inline-block;
   padding: 8px 16px;
@@ -191,7 +191,7 @@ nav h2 {
 .threeCards,
 .twoCards {
   display: flex;
-  background-color: rgb(234, 155, 126);
+  background-color: black;
   
 }
 
