@@ -27,6 +27,9 @@ p {
 h1 {
   font-size: 60px;
   margin-bottom: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 h4 {
@@ -148,7 +151,7 @@ nav h2 {
 #hero {
   background-attachment: fixed;
   height: 80vh;
-  background-image: url("../assets/images/crayon.jpg");
+  background-image: url("../assets/images/farm.jpg");
   background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
