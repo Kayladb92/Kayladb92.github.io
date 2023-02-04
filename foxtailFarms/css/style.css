@@ -50,7 +50,7 @@ footer a {
 nav a:hover,
 footer a:hover {
   color: #e1a177;
-  text-decoration: underline;
+  text-decoration: black;
 }
 
 footer ul {
