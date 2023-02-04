@@ -44,12 +44,12 @@ a {
 nav,
 nav a,
 footer a {
-  color: indigo;
+  color: black;
 }
 
 nav a:hover,
 footer a:hover {
-  color: purple;
+  color: #e1a177;
   text-decoration: underline;
 }
 
@@ -125,7 +125,7 @@ nav .socialMedia {
 nav,
 nav a,
 footer a {
-  color: indigo;
+  color: black;
 }
 
 nav a:hover,
@@ -191,7 +191,7 @@ nav h2 {
 .threeCards,
 .twoCards {
   display: flex;
-  background-color: black;
+  background-color: #e1a177;
   
 }
 
