@@ -226,10 +226,10 @@ nav h2 {
   Carousel Styles
 ****************************************************************************/
 
-.carousel-item {
+.carousel-item #container {
   min-width: 400px ;
   max-height: 600px ;
-  display: flex;
+
 }
 #carousel {
   text-align: center;
