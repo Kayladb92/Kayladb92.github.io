@@ -212,7 +212,7 @@ nav h2 {
 
 .card p {
   font-size: 18px;
-  mins-height: 100px;
+  min-height: 100px;
 }
 
 /****************************************************************************
@@ -228,7 +228,7 @@ nav h2 {
 
 .carousel-item {
   min-width: 400px ;
-  max-height: 800px ;
+  max-height: 600px ;
 }
 #carousel {
   text-align: center;
