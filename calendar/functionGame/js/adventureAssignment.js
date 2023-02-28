@@ -17,42 +17,42 @@
 // or presses the 'a' or left arrow key
 function pressMoveLeftButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    moveLeft():
 }
 
 // This function will run when the user clicks the "Move Right" button,
 // or presses the 'd' or right arrow key
 function pressMoveRightButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    moveRight():
 }
 
 // This function will run when the user clicks the "Move Down" button,
 // or presses the 's' or down arrow key
 function pressMoveDownButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    moveDown():
 }
 
 // This function will run when the user clicks the "Move Up" button,
 // or presses the 'w' or up arrow key
 function pressMoveUpButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    moveUp():
 }
 
 // This function will run when the user clicks the "Attack!" button,
 // or presses the spacebar on the keyboard
 function pressAttackButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    Attack():
 }
 
 // This function will run when the user clicks the "Jump Up" button,
 // or presses SHIFT and the 'w' key
 function pressJumpUpButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+        Jump():
 }
 
 // This function will run when the user clicks the "Jump Down" button,
