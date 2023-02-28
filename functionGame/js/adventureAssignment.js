@@ -45,7 +45,7 @@ function pressMoveUpButton() {
 // or presses the spacebar on the keyboard
 function pressAttackButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    Attack():
+    atack():
 }
 
 // This function will run when the user clicks the "Jump Up" button,
@@ -79,5 +79,5 @@ function pressJumpRightButton() {
 // This function will run when the user clicks the "Jump!" button
 function pressJumpButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-    Jump():
+    jump():
 }
