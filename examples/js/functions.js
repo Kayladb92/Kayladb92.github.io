@@ -6,3 +6,5 @@ console.log(greeting);
 function greet() {
    console.log(greeting);
 }
+
+greet();
