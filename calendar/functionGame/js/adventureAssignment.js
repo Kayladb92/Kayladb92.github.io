@@ -52,32 +52,32 @@ function pressAttackButton() {
 // or presses SHIFT and the 'w' key
 function pressJumpUpButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-        Jump():
+        jumpUp():
 }
 
 // This function will run when the user clicks the "Jump Down" button,
 // or presses SHIFT and the 's' key
 function pressJumpDownButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    jumpDown():
 }
 
 // This function will run when the user clicks the "Jump Left" button,
 // or presses SHIFT and the 'a' key
 function pressJumpLeftButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    jumpLeft():
 }
 
 // This function will run when the user clicks the "Jump Right" button,
 // or presses SHIFT and the 'd' key
 function pressJumpRightButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    jumpRight():
 }
 
 // This function will run when the user clicks the "Jump!" button
 function pressJumpButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    Jump():
 }
