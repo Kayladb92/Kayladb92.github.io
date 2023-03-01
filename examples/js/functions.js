@@ -26,4 +26,4 @@ function greetUserOnPage(username) {
     greetingDisplay.innerHTML = greeting + "," + username;
 }
 
-greetUserOnPage("KayKay");
+greetUserOnPage("Kayla");
