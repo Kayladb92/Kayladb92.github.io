@@ -45,4 +45,6 @@ function convertToDaysLeft(milliseconds) {
         formatCountdownText(daysLeft, HoursLeft, minutesLeft, secondsLeft);
 }
 
-setCountdown();
+//setCountdown();
+
+setInterval(setCountdown, 1000);
