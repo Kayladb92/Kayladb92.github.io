@@ -13,6 +13,8 @@ body {
 }
 
 #gallery1 img {
-    width: 500px;
-    margin: 24px;
+    height: 200px;
+    margin:12px;
+    flex: 1 0 auto;
+    object-fit: cover;
 }
