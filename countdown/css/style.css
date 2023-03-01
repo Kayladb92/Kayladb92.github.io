@@ -13,8 +13,9 @@ body {
 }
 
 #gallery1 img {
-    height: 200px;
+    height: 500px;
     margin:12px;
     flex: 1 0 auto;
     object-fit: cover;
+    align-content: center;
 }
