@@ -42,7 +42,7 @@ function convertToDaysLeft(milliseconds) {
     let secondsLeft = convertToSecondsLeft(timeLeft);
 
     countdown.innerHTML =
-        formatCountdownText(daysLeft, HoursLeft, minutesLeft, secondsLeft);
+        formatCountdownText(daysLeft, hoursLeft, minutesLeft, secondsLeft);
 }
 
 //setCountdown();
