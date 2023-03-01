@@ -20,10 +20,10 @@ greetUser("Kayla")
 greetUser("Kayla")
 
 // Function with input parameter
-//
+// that modifies the page
 function greetUserOnPage(username) {
      let greetingDisplay = document.getElementById("greetingDisplay");
     greetingDisplay.innerHTML = greeting + "," + username;
 }
 
-greetUserOnPage("Kayla");
+greetUserOnPage("KayKay");
