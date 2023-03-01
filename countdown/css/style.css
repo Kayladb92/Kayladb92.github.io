@@ -7,6 +7,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: darkgoldenrod;
+    background-color: rgb(144, 231, 159);
     flex-direction: column;
 }
