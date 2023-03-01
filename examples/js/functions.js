@@ -27,3 +27,12 @@ function greetUserOnPage(username) {
 }
 
 greetUserOnPage("Kayla");
+
+// Function that outputs (or "returns") a value
+function getUserGreeting(username) {
+    return greeting + "," + username;
+}
+
+console.log(
+    getUserGreeting("Kayla")
+);
