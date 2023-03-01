@@ -18,3 +18,12 @@ function greetUser(username) {
 greetUser("Kayla")
 greetUser("Kayla")
 greetUser("Kayla")
+
+// Function with input parameter
+//
+function greetUserOnPage(username) {
+     let greetingDisplay = document.getElementById("greetingDisplay");
+    greetingDisplay.innerHTML = greeting + "," + username;
+}
+
+greetUserOnPage("Kayla");
