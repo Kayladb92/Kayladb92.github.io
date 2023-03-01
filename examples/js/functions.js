@@ -36,3 +36,11 @@ function getUserGreeting(username) {
 console.log(
     getUserGreeting("Kayla")
 );
+
+// Function using another function
+// that modifies the page
+function greetUserOnPageV2(username) {
+    let greetingDisplay = document.getElementById("greetingDisplay");
+    greetingDisplay.innerHTML = getUserGreeting(username);
+}
+greetUserOnPageV2("Kayla D Banks");
