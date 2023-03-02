@@ -9,3 +9,7 @@ function displayTwoPlusTwo()  {
 function displayThreeTimesFour() {
     result.innerHTML = 3 * 4;
 }
+
+function displayTenMinusFour() {
+    result.innerHTML = 10 - 4;
+}
