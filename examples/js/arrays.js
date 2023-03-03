@@ -28,3 +28,11 @@ console.log(lastGroceryItem);
 console.log(groceryList);
 groceryList.push("ice cream");
 console.log(groceryList);
+
+const pageList = document.getElementById("pageList");
+const itemInput = document.getElementById("itemInput");
+const itemSubmit = document.getElementById("itemSubmit");
+
+function displayList() {
+    pageList.innerHTML = grocerylist.toString()
+}
