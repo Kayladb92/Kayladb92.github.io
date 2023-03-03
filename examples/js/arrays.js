@@ -24,3 +24,7 @@ console.log(thirdGroceryItem);
 
 let lastGroceryItem = groceryList[5];
 console.log(lastGroceryItem);
+
+console.log(groceryList);
+groceryList.push("ice cream");
+console.log(groceryList);
