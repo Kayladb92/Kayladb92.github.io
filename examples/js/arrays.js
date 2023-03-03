@@ -40,3 +40,10 @@ function displayList() {
 
 }
 displayList();
+
+itemSubmit.addEventListener("click", function (e) {
+    let newItem = itemInput.value;
+    groceryList.push(newItem);
+    displayList();
+
+});

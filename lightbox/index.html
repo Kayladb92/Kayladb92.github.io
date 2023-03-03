@@ -30,6 +30,16 @@
 
       let cofeeImage = document.getElementById("coffeeImage");
       coffeeImage.onclick = openLightbox;
+
+      function closeLightbox() {
+        lightboxContainer.classList.remove("display");
+        lightbox.src = "";
+      }
+
+      lightboxBackground.onclick = closeLightbox;
+      lightboxCloser.onclick = closeLightbox;
+
+
     </script>
   </body>
 </html>
