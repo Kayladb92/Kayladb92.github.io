@@ -8,17 +8,23 @@ let lightboxContainer = document.getElementById("lightboxContainer");
         lightbox.src = this.src;
       }
 
-      let lion = document.getElementById("Lion");
-      lion.onclick = openLightbox;
+      // let lion = document.getElementById("Lion");
+      // lion.onclick = openLightbox;
 
-      let phone = document.getElementById("phone");
-      phone.onclick = openLightbox;
+      // let phone = document.getElementById("phone");
+      // phone.onclick = openLightbox;
 
-      let dive = document.getElementById("dive");
-      dive.onclick = openLightbox;
+      // let dive = document.getElementById("dive");
+      // dive.onclick = openLightbox;
 
-      let diner = document.getElementById("diner");
-      diner.onclick = openLightbox;
+      // let diner = document.getElementById("diner");
+      // diner.onclick = openLightbox;
+
+      let galleryImages = document.getElementsByClassName("galleryimage");
+      for (let i = 0; i < galleryImages.length; i++) {
+        let galleryImage = galleryImage[i];
+        galleryImage.onclick = openLightbox;
+      }
 
 
       function closeLightbox() {
