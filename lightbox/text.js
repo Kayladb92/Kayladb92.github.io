@@ -22,7 +22,7 @@ let lightboxContainer = document.getElementById("lightboxContainer");
 
       let galleryImages = document.getElementsByClassName("galleryimage");
       for (let i = 0; i < galleryImages.length; i++) {
-        let galleryImage = galleryImage[i];
+        let galleryImage = galleryImages[i];
         galleryImage.onclick = openLightbox;
       }
 
