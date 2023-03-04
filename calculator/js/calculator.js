@@ -12,6 +12,7 @@ function displayThreeTimesFour() {
 
 function displayTenMinusFour() {
     result.innerHTML = 10 - 4;
+}
 
 displayMultiply() {
     let input1 = 

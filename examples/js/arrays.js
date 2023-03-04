@@ -2,7 +2,7 @@ let emptyArray = [];
 
 let numberArray = [27, 7, 2, 2929, 45];
 
-let stringArray = ["apple", "orange", "grapes", "pear",];
+let stringArray = ["apple", "orange", "grapes", "pear"];
 
 let mixedArray = ["cat", 2, 5, "dog", "platypus", 12, [2, 3]];
 
