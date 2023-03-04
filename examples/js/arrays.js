@@ -34,7 +34,7 @@ const itemInput = document.getElementById("itemInput");
 const itemSubmit = document.getElementById("itemSubmit");
 
 function displayList() {
-    pageList.innerHTML = grocerylist
+    pageList.innerHTML = groceryList
         .toString()
         .replaceAll(",", "<br>");
 

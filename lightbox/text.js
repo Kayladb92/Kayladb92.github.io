@@ -8,8 +8,18 @@ let lightboxContainer = document.getElementById("lightboxContainer");
         lightbox.src = this.src;
       }
 
-      let cofeeImage = document.getElementById("coffeeImage");
-      coffeeImage.onclick = openLightbox;
+      let lion = document.getElementById("Lion");
+      lion.onclick = openLightbox;
+
+      let phone = document.getElementById("phone");
+      phone.onclick = openLightbox;
+
+      let dive = document.getElementById("dive");
+      dive.onclick = openLightbox;
+
+      let diner = document.getElementById("diner");
+      diner.onclick = openLightbox;
+
 
       function closeLightbox() {
         lightboxContainer.classList.remove("display");
