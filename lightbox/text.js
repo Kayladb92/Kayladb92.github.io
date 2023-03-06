@@ -32,5 +32,11 @@ let lightboxContainer = document.getElementById("lightboxContainer");
         lightbox.src = "";
       }
 
-      lightboxBackground.onclick = closeLightbox;
-      lightboxCloser.onclick = closeLightbox;
+      // lightboxBackground.onclick = closeLightbox;
+      // lightboxCloser.onclick = closeLightbox;
+
+      let closers = document.getElementsByClassName("closer");
+      for (let i = 0; i < closers.length; i++) {
+        let closer = closers[i];
+        closer.onclick = closeLightbox;
+      }
