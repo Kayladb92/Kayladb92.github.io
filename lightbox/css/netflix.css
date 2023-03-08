@@ -1,3 +1,75 @@
-body{
-    background-image:url(../images/netflix.jpeg);
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0px
 }
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner div {
+    display:inline-block;
+    magin: 12px;
+}
+
+#new {
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+#price {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#banner a {
+    text-decoration: none;
+}
+
+#hero {
+    background-image: 
+    radial-gradient(transparent, black),
+    url(../images/netflix.jpeg);
+    min-height: 500px;
+    padding: 48px;
+
+}
+
+#navBar {
+    display: flex;
+}
+
+#navBar img {
+    width: 150px;
+    margin-right: auto;
+}
+
+.clearButton {
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 2px;
+    margin: 0px 24px;
+}
+
+.redButton {
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: white;
+}
+
+
+
+
+
+
+
+
