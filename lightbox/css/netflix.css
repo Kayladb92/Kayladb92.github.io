@@ -1,8 +1,9 @@
 body {
+    color:white;
     font-family: sans-serif;
     font-size: 18px;
     margin: 0px
-    color: white;
+    
 }
 
 #banner {
@@ -13,7 +14,7 @@ body {
 
 #banner div {
     display:inline-block;
-    magin: 12px;
+    margin: 12px;
 }
 
 #new {
