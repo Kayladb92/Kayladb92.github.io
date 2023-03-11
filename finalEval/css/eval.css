@@ -1,0 +1,34 @@
+#background {
+    background-color:black;
+}
+
+#banner {
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+    background-image: 
+    radial-gradient(transparent, black),
+    url(../images/backgroundLarge.jpg);
+    min-height: 500px;
+    width: 500px;
+}
+
+#navBar {
+    display: flex;
+}
+
+#navBar img {
+    width: 100px;
+    margin-right: auto;
+}
+
+
+#heroContent {
+    text-align: center;
+    max-width: 640px;
+    margin: 100px auto;
+}
